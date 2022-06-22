@@ -166,6 +166,7 @@ $theRobotoFont: 'Roboto', sans-serif;
     text-align: center;
     font-family: $thePattyFont;
     font-weight: bold;
+    margin-inline-start: 25px;
 }
 
 .sbunsers-frist-page img{
@@ -177,6 +178,11 @@ $theRobotoFont: 'Roboto', sans-serif;
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+.subeser-logo-dimond-logo-first-page{
+    width: 100px;
+    
 
 }
 
@@ -223,6 +229,53 @@ $theRobotoFont: 'Roboto', sans-serif;
         width: 350px;
         height: 150px;
     }
+
+    .sbunsers-frist-page h2{
+    text-align: center;
+    font-family: $thePattyFont;
+    font-weight: bold;
+    margin-inline-start: 25px;
+    }
+
+    .sbunsers-frist-page img{
+        margin-inline-start: 20px;
+    }
+
+    .contner-dimond-sbunser-first-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .sbunsers-frist-page img{
+        margin-block-start: 5px;
+        margin-inline-start: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+
+    #subeser-logo-dimond-logo-first-page1{
+        width: 100px;
+        height: 100px;
+        margin-inline-start: 30px;
+    }
+
+
+    #subeser-logo-dimond-logo-first-page2{
+        width: 100px;
+        height: 100px;
+    }
+
+    #subeser-logo-dimond-logo-first-page3{
+        width: 100px;
+        height: 70px;
+    }
+
+
 
 
 }
@@ -279,4 +332,41 @@ $theRobotoFont: 'Roboto', sans-serif;
         width: 150px;
         height: 100px;
     }
+
+
+
+
+    .sbunsers-frist-page img{
+        margin-block-start: 5px;
+        margin-inline-start: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    
+
+
+    .sbunsers-frist-page h2{
+        font-size: 20px;
+    }
+
+    
+
+    #subeser-logo-dimond-logo-first-page1{
+        width: 55px;
+        height: 50px;
+        margin-inline-start: 30px;
+    }
+    
+    
+    #subeser-logo-dimond-logo-first-page2{
+        width: 55px;
+        height: 50px;
+    }
+    
+    #subeser-logo-dimond-logo-first-page3{
+        width: 55px;
+        height: 30px;
+    }
+    
+    
 }

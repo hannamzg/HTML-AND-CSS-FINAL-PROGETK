@@ -165,6 +165,8 @@ body .container-fluid {
   text-align: center;
   font-family: "Pattay";
   font-weight: bold;
+  -webkit-margin-start: 25px;
+          margin-inline-start: 25px;
 }
 
 .sbunsers-frist-page img {
@@ -177,6 +179,10 @@ body .container-fluid {
   justify-content: center;
   align-items: center;
   margin: 20px;
+}
+
+.subeser-logo-dimond-logo-first-page {
+  width: 100px;
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 550px) {
@@ -213,6 +219,52 @@ body .container-fluid {
     margin: 20px;
     width: 350px;
     height: 150px;
+  }
+
+  .sbunsers-frist-page h2 {
+    text-align: center;
+    font-family: "Pattay";
+    font-weight: bold;
+    -webkit-margin-start: 25px;
+            margin-inline-start: 25px;
+  }
+
+  .sbunsers-frist-page img {
+    -webkit-margin-start: 20px;
+            margin-inline-start: 20px;
+  }
+
+  .contner-dimond-sbunser-first-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .sbunsers-frist-page img {
+    -webkit-margin-before: 5px;
+            margin-block-start: 5px;
+    -webkit-margin-start: 10px;
+            margin-inline-start: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  #subeser-logo-dimond-logo-first-page1 {
+    width: 100px;
+    height: 100px;
+    -webkit-margin-start: 30px;
+            margin-inline-start: 30px;
+  }
+
+  #subeser-logo-dimond-logo-first-page2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  #subeser-logo-dimond-logo-first-page3 {
+    width: 100px;
+    height: 70px;
   }
 }
 @media (max-width: 550px) {
@@ -251,5 +303,35 @@ body .container-fluid {
     margin: 20px;
     width: 150px;
     height: 100px;
+  }
+
+  .sbunsers-frist-page img {
+    -webkit-margin-before: 5px;
+            margin-block-start: 5px;
+    -webkit-margin-start: 10px;
+            margin-inline-start: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .sbunsers-frist-page h2 {
+    font-size: 20px;
+  }
+
+  #subeser-logo-dimond-logo-first-page1 {
+    width: 55px;
+    height: 50px;
+    -webkit-margin-start: 30px;
+            margin-inline-start: 30px;
+  }
+
+  #subeser-logo-dimond-logo-first-page2 {
+    width: 55px;
+    height: 50px;
+  }
+
+  #subeser-logo-dimond-logo-first-page3 {
+    width: 55px;
+    height: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
