@@ -1,3 +1,25 @@
+@-webkit-keyframes hearth {
+  0% {
+    height: 20px;
+  }
+  100% {
+    height: 100px;
+  }
+  100% {
+    color: red;
+  }
+}
+@keyframes hearth {
+  0% {
+    height: 20px;
+  }
+  100% {
+    height: 100px;
+  }
+  100% {
+    color: red;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -67,12 +89,29 @@ body .container-fluid {
           margin-inline-start: 20px;
 }
 
+#hearth-icon-img-first-page {
+  -webkit-margin-start: 10px;
+          margin-inline-start: 10px;
+  height: 20px;
+  -webkit-animation-name: hearth;
+          animation-name: hearth;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  animation-direction: alternate-reverse;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .some-abou-us-in-the-first-page {
   margin: 0 auto;
   max-width: 1000px;
 }
 
 .some-abou-us-in-the-first-page p {
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
@@ -81,19 +120,61 @@ body .container-fluid {
   height: 600px;
 }
 
-@media (max-width: 1000) and (min-width: 550px) {
+.carousel-item h1 {
+  text-align: center;
+  margin-block: 20px;
+}
+
+.best-ball-kids-first-page {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.best-ball-kids-first-page h1 {
+  margin-block: 35px;
+  font-family: "Pattay";
+  font-weight: bold;
+}
+
+.best-ball-kids-first-page p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 550px) {
   #ul-to-nav-bar li {
     display: flex;
     justify-content: center;
   }
 
   .some-abou-us-in-the-first-page p {
-    font-size: 15px;
+    font-size: 20px;
     margin: 15px;
   }
 
   #img-slider-fristpage-5, #img-slider-fristpage-4, #img-slider-fristpage-3, #img-slider-fristpage-2, #img-slider-fristpage-1 {
     height: 400px;
+  }
+
+  #hearth-icon-img-first-page {
+    -webkit-margin-end: 40px;
+            margin-inline-end: 40px;
+    padding: 10px;
+  }
+
+  .best-ball-kids-first-page h1 {
+    margin: 30px;
+  }
+
+  .best-ball-kids-first-page p {
+    margin: 30px;
+    font-size: 20px;
+  }
+
+  .best-ball-kids-first-page div img {
+    margin: 20px;
+    width: 350px;
+    height: 150px;
   }
 }
 @media (max-width: 550px) {
@@ -104,10 +185,33 @@ body .container-fluid {
 
   .some-abou-us-in-the-first-page p {
     font-size: 15px;
-    margin: 15px;
+    margin: 20px;
   }
 
   #img-slider-fristpage-5, #img-slider-fristpage-4, #img-slider-fristpage-3, #img-slider-fristpage-2, #img-slider-fristpage-1 {
     height: 250px;
+  }
+
+  #hearth-icon-img-first-page {
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    padding: 10px;
+    -webkit-margin-end: 40px;
+            margin-inline-end: 40px;
+  }
+
+  .best-ball-kids-first-page h1 {
+    margin: 15px;
+  }
+
+  .best-ball-kids-first-page p {
+    margin: 15px;
+    font-size: 15px;
+  }
+
+  .best-ball-kids-first-page div img {
+    margin: 20px;
+    width: 150px;
+    height: 100px;
   }
 }/*# sourceMappingURL=style.css.map */
