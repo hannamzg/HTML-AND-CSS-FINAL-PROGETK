@@ -141,6 +141,44 @@ body .container-fluid {
   font-size: 20px;
 }
 
+.best-ball-kids-first-page img {
+  margin: 10px;
+}
+
+.sbunsers-frist-page {
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: rgba(169, 169, 169, 0.1);
+}
+
+.sbunsers-frist-page h3 {
+  margin-block: 40px;
+  text-align: center;
+}
+
+.dimond-sbunser-page-one {
+  display: flex;
+  justify-content: center;
+}
+
+.sbunsers-frist-page h2 {
+  text-align: center;
+  font-family: "Pattay";
+  font-weight: bold;
+}
+
+.sbunsers-frist-page img {
+  -webkit-margin-start: 20px;
+          margin-inline-start: 20px;
+}
+
+.contner-dimond-sbunser-first-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
 @media only screen and (max-width: 1000px) and (min-width: 550px) {
   #ul-to-nav-bar li {
     display: flex;
