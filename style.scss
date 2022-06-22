@@ -1,0 +1,134 @@
+$theBlackColor: #0D0D0D;
+$theWhiteColor: #F2F2F2;
+$theYellowColor: #F2CC0F;
+$theGreenColor: #8CBF3F;
+$thePurpleColor:#9453A6;
+
+$thePattyFont: 'Pattay';
+$theHeenyFont: 'Henny Penny';
+$theRobotoFont: 'Roboto', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header{
+    background-color: $theWhiteColor;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+ #nav{
+    background-color: $theWhiteColor;
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+
+ body .container-fluid{
+    justify-content: center;
+    background-color: $theWhiteColor;
+ }
+
+#ul-to-nav-bar{
+    background-color: $theWhiteColor;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 70%;
+    margin: auto;
+}
+#ul-to-nav-bar li:hover #the-border-in-nav{
+
+    transform: scale(1);
+}
+#ul-to-nav-bar li a{
+    background-color: $theWhiteColor;
+    font-size: 30px;
+    font-family: $thePattyFont;
+    color: $thePurpleColor;
+}
+
+
+ #the-border-in-nav{
+    position: relative;
+    bottom: 10px;
+    transform: scale(0);
+    border-bottom: 3px $thePurpleColor solid;
+    transform-origin: 100% 50% ;
+    transition: all 0.5s;
+   
+}
+
+
+.titel-of-first-page{
+    -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    background-color: $thePurpleColor;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $theWhiteColor;
+}
+
+.titel-of-first-page h1{
+    margin-inline-start: 20px;
+}
+
+.some-abou-us-in-the-first-page {
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+
+.some-abou-us-in-the-first-page p{
+    font-size: 20px;
+    font-family: $theRobotoFont;
+}
+
+
+
+#img-slider-fristpage-5 , #img-slider-fristpage-4 , #img-slider-fristpage-3 , #img-slider-fristpage-2,#img-slider-fristpage-1{
+    height: 600px;
+}
+
+
+
+
+@media (max-width:1000) and (min-width:550px){
+    #ul-to-nav-bar li{
+        display: flex;
+        justify-content: center;
+    }
+
+    .some-abou-us-in-the-first-page p{
+        font-size: 15px;
+        margin: 15px;
+    }
+    
+    #img-slider-fristpage-5 , #img-slider-fristpage-4 , #img-slider-fristpage-3 , #img-slider-fristpage-2,#img-slider-fristpage-1{
+        height: 400px;
+    }
+
+
+}
+
+
+@media (max-width:550px){
+    #ul-to-nav-bar li{
+        display: flex;
+        justify-content: center;
+    }
+
+    .some-abou-us-in-the-first-page p{
+        font-size: 15px;
+        margin: 15px;
+    }
+    
+    #img-slider-fristpage-5 , #img-slider-fristpage-4 , #img-slider-fristpage-3 , #img-slider-fristpage-2,#img-slider-fristpage-1{
+        height: 250px;
+    }
+}
