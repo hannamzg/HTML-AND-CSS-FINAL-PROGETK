@@ -220,19 +220,17 @@ body .container-fluid {
 }
 
 footer {
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 10px;
   background-color: #0D0D0D;
   color: #F2F2F2;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.item-footer {
-  display: flex;
-  align-items: center;
+footer p {
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 550px) {
@@ -421,9 +419,5 @@ footer {
   .the-gold-sbunser-page-one div img {
     width: 30px;
     height: 29px;
-  }
-
-  .item-footer h4 {
-    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
