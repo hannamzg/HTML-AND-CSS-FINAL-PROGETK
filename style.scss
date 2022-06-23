@@ -150,7 +150,7 @@ $theRobotoFont: 'Roboto', sans-serif;
     background-color: 	rgb(169, 169, 169,0.10);
 }
 
-.sbunsers-frist-page h3{
+.sbunsers-frist-page > h3{
     margin-block: 40px;
     text-align: center;
 }
@@ -173,21 +173,69 @@ $theRobotoFont: 'Roboto', sans-serif;
     margin-inline-start: 20px;
 }
 
+.subeser-logo-dimond-logo-first-page{
+    width: 100px;
+}
+
 .contner-dimond-sbunser-first-page{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 20px;
 }
 
-.subeser-logo-dimond-logo-first-page{
-    width: 100px;
+
+.gold-sbunser-page-one{
+    margin-block-start: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gold-sbunser-page-one h3{
+    font-size: 20px;
+    margin-inline-start:25px ;
+}
+
+.gold-sbunser-page-one img{
+    margin-block-end: 10px;
+    width: 40px;
+    height: 35px;
+}
+
+
+.the-gold-sbunser-page-one{
+    margin-block-start: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.the-gold-sbunser-page-one div img{
+    width: 70px;
+    height: 60px;
+}
+
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: $theBlackColor;
+    color: $theWhiteColor;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
     
 
 }
 
-
-
+.item-footer{
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -235,6 +283,7 @@ $theRobotoFont: 'Roboto', sans-serif;
     font-family: $thePattyFont;
     font-weight: bold;
     margin-inline-start: 25px;
+    font-size: 30px;
     }
 
     .sbunsers-frist-page img{
@@ -248,7 +297,8 @@ $theRobotoFont: 'Roboto', sans-serif;
         margin: 20px;
     }
 
-    .sbunsers-frist-page img{
+
+    #dimond-logo-first-page{
         margin-block-start: 5px;
         margin-inline-start: 10px;
         width: 20px;
@@ -259,24 +309,42 @@ $theRobotoFont: 'Roboto', sans-serif;
 
 
     #subeser-logo-dimond-logo-first-page1{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         
     }
 
 
     #subeser-logo-dimond-logo-first-page2{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     #subeser-logo-dimond-logo-first-page3{
-        width: 100px;
-        height: 70px;
+        width: 80px;
+        height: 40px;
     }
 
 
+    .gold-sbunser-page-one h3{
+        font-size: 23px;
+    }
+    
+    
+    
+    .gold-sbunser-page-one img{
+        
+        width: 30px;
+        height: 30px;
+    }
 
+
+    
+    
+    .the-gold-sbunser-page-one div img{
+        width: 50px;
+        height: 36px;
+    }
 
 }
 
@@ -334,9 +402,7 @@ $theRobotoFont: 'Roboto', sans-serif;
     }
 
 
-
-
-    .sbunsers-frist-page img{
+    #dimond-logo-first-page{
         margin-block-start: 5px;
         margin-inline-start: 10px;
         width: 20px;
@@ -367,6 +433,37 @@ $theRobotoFont: 'Roboto', sans-serif;
         width: 55px;
         height: 30px;
     }
+
+
     
+
+    .gold-sbunser-page-one{
+        margin-block-start: 20px;
+    }
+    
+    .gold-sbunser-page-one h3{
+        font-size: 15px;
+        margin-inline-start:35px ;
+    }
+    
+    .gold-sbunser-page-one img{
+        margin-block-end: 10px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .the-gold-sbunser-page-one {
+        flex-wrap: wrap;
+    }
+
+    .the-gold-sbunser-page-one div img{
+        width: 30px;
+        height: 29px;
+    }
+
+
+    .item-footer h4{
+      font-size: 20px;
+    }
     
 }
