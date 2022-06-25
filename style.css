@@ -73,6 +73,15 @@ body .container-fluid {
   transition: all 0.5s;
 }
 
+.scrol-up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  background-color: white;
+  border-radius: 50%;
+}
+
 .titel-of-first-page {
   -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
   clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
@@ -329,6 +338,10 @@ footer p {
   }
 }
 @media (max-width: 550px) {
+  .scrol-up {
+    width: 30px;
+  }
+
   #ul-to-nav-bar li {
     display: flex;
     justify-content: center;
