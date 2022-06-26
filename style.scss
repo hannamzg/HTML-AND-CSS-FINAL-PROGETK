@@ -24,7 +24,9 @@ $theRobotoFont: 'Roboto', sans-serif;
 }
 
 #icon-img{
-    width: 9vw;
+    width: 8vw;
+    max-width: 100px;
+    min-width: 70px;
 }
 
 #header{
@@ -32,6 +34,7 @@ $theRobotoFont: 'Roboto', sans-serif;
     position: sticky;
     top: 0;
     z-index: 1000;
+    
 }
 
  #nav{

@@ -27,7 +27,9 @@
 }
 
 #icon-img {
-  width: 9vw;
+  width: 8vw;
+  max-width: 100px;
+  min-width: 70px;
 }
 
 #header {
