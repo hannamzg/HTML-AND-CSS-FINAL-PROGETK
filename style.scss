@@ -23,6 +23,9 @@ $theRobotoFont: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
+#icon-img{
+    width: 9vw;
+}
 
 #header{
     background-color: $theWhiteColor;
@@ -93,6 +96,7 @@ $theRobotoFont: 'Roboto', sans-serif;
 
 .titel-of-first-page h1{
     margin-inline-start: 20px;
+    font-family: $thePattyFont;
 }
 
 #hearth-icon-img-first-page{
@@ -247,6 +251,9 @@ footer p{
 
 
 @media only screen and (max-width: 1000px) and (min-width:550px) {
+    #icon-img{
+        width: 13vw;
+    }
     #ul-to-nav-bar li{
         display: flex;
         justify-content: center;
@@ -370,6 +377,9 @@ footer p{
 
 
 @media (max-width:550px){
+    #icon-img{
+        width: 13vw;
+    }
     .scrol-up{
         width: 30px;
         
