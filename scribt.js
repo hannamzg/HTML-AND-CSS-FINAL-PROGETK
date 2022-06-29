@@ -51,5 +51,12 @@ left.addEventListener('click',function(){
     }
 
     mainImg.src = imgs[t].src;
-})
+});
+
+
+
+
+
+
+
 

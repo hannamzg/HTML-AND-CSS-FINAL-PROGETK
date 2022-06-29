@@ -448,6 +448,73 @@ footer {
   max-height: 70vh;
 }
 
+.titel-of-page-four {
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+  clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+  background-color: #9453A6;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F2F2F2;
+}
+
+.titel-of-page-four h3 {
+  font-size: "Pattay";
+  font-size: 40px;
+}
+
+.accordion {
+  margin-top: 30px !important;
+}
+
+.titel-page-call-us {
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+  clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+  background-color: #9453A6;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F2F2F2;
+}
+
+.titel-page-call-us h3 {
+  font-size: "Pattay";
+  font-size: 40px;
+}
+
+.main-of-call-us-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.form-call-us-page input {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+}
+
+.form-call-us-page textarea {
+  margin: 10px;
+}
+
+.call-us-page-icons {
+  display: flex;
+}
+
+.call-us-page-icons svg {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.call-us-page-icons svg:hover {
+  color: #9453A6;
+}
+
 @media only screen and (max-width: 1000px) and (min-width: 550px) {
   #icon-img {
     width: 13vw;

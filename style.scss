@@ -456,8 +456,81 @@ footer{
 }
 
 
+.titel-of-page-four{
+    -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    background-color: $thePurpleColor;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $theWhiteColor;
+}
 
 
+.titel-of-page-four h3{
+    font-size: $thePattyFont;
+    font-size: 40px;
+}
+
+
+
+
+.accordion{
+    margin-top: 30px !important;
+}
+
+.titel-page-call-us{
+    -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    background-color: $thePurpleColor;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $theWhiteColor;
+}
+
+.titel-page-call-us h3{
+    font-size: $thePattyFont;
+    font-size: 40px;
+}
+
+
+.main-of-call-us-page{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+
+.form-call-us-page input{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+.form-call-us-page textarea{
+    margin: 10px;
+}
+
+.call-us-page-icons{
+    display: flex;
+    
+}
+
+.call-us-page-icons svg{
+    margin: 10px;
+    cursor: pointer;
+}
+.call-us-page-icons svg:hover{
+    color: $thePurpleColor;
+}
 
 
 
