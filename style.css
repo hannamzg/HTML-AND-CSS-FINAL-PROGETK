@@ -40,19 +40,17 @@
   z-index: 1000;
 }
 
-#nav {
-  background-color: #F2F2F2;
+body #navv {
+  background-color: #F2F2F2 !important;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 body .container-fluid {
   justify-content: center;
-  background-color: #F2F2F2;
 }
 
 #ul-to-nav-bar {
-  background-color: #F2F2F2;
   display: flex;
   justify-content: space-around;
   flex-basis: 70%;
@@ -64,7 +62,6 @@ body .container-fluid {
 }
 
 #ul-to-nav-bar li a {
-  background-color: #F2F2F2;
   font-size: 30px;
   font-family: "Pattay";
   color: #9453A6;
@@ -239,14 +236,95 @@ footer {
   margin-top: 10px;
   background-color: #0D0D0D;
   color: #F2F2F2;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
 }
 
-footer p {
-  padding-top: 30px;
+.scohel-midia-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.scohel-midia-icons div svg {
+  color: #F2F2F2;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.scohel-midia-icons div svg:hover {
+  color: #9453A6;
+}
+
+.info-in-the-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.titel-on-the-page-two {
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+  clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+  background-color: #9453A6;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F2F2F2;
+}
+
+.titel-on-the-page-two h2 {
+  font-size: "Pattay";
+  font-size: 40px;
+}
+
+.the-rosh-aer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.the-rosh-aer h3 {
+  color: #9453A6;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Pattay";
+}
+
+.the-rosh-aer p {
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.the-rosh-aer img {
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
+}
+
+.adlat-page-two {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.adlat-page-two h3 {
+  -webkit-margin-before: 30px;
+          margin-block-start: 30px;
+  color: #9453A6;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Pattay";
+}
+
+.adlat-page-two p {
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.the-rosh-aer img {
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 550px) {
@@ -346,6 +424,36 @@ footer p {
   .the-gold-sbunser-page-one div img {
     width: 50px;
     height: 36px;
+  }
+
+  .the-rosh-aer h3 {
+    margin: 30px;
+  }
+
+  .the-rosh-aer p {
+    font-size: 18px;
+    margin: 30px;
+  }
+
+  .the-rosh-aer img {
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+  }
+
+  .adlat-page-two h3 {
+    margin: 30px;
+  }
+
+  .adlat-page-two p {
+    font-size: 18px;
+    margin: 30px;
+  }
+
+  .adlat-page-two img {
+    width: 200px;
+    height: 150px;
+    margin: 30px;
   }
 }
 @media (max-width: 550px) {
@@ -447,5 +555,29 @@ footer p {
   .the-gold-sbunser-page-one div img {
     width: 30px;
     height: 29px;
+  }
+
+  .scohel-midia-icons div svg {
+    width: 30px;
+  }
+
+  .info-in-the-footer p {
+    font-size: 18px;
+  }
+
+  .the-rosh-aer h3 {
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .the-rosh-aer p {
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  .the-rosh-aer img {
+    width: 150px;
+    height: 120px;
+    margin: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

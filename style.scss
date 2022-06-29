@@ -27,40 +27,39 @@ $theRobotoFont: 'Roboto', sans-serif;
     width: 8vw;
     max-width: 100px;
     min-width: 70px;
+    
 }
 
 #header{
-    background-color: $theWhiteColor;
+    background-color: $theWhiteColor; 
     position: sticky;
     top: 0;
     z-index: 1000;
     
 }
 
- #nav{
-    background-color: $theWhiteColor;
+body #navv{
+    background-color: $theWhiteColor !important;  
     max-width: 1000px;
     margin: 0 auto;
  }
 
  body .container-fluid{
     justify-content: center;
-    background-color: $theWhiteColor;
+    
  }
 
 #ul-to-nav-bar{
-    background-color: $theWhiteColor;
     display: flex;
     justify-content: space-around;
     flex-basis: 70%;
     margin: auto;
 }
 #ul-to-nav-bar li:hover #the-border-in-nav{
-
     transform: scale(1);
 }
 #ul-to-nav-bar li a{
-    background-color: $theWhiteColor;
+     
     font-size: 30px;
     font-family: $thePattyFont;
     color: $thePurpleColor;
@@ -82,7 +81,7 @@ $theRobotoFont: 'Roboto', sans-serif;
     bottom:  10px;
     right: 10px;
     z-index: 100;
-    background-color: white;
+    background-color: white; 
     border-radius: 50%;
 }
 
@@ -233,23 +232,98 @@ $theRobotoFont: 'Roboto', sans-serif;
 
 footer{
     margin-top: 10px;
-    
     background-color: $theBlackColor;
     color: $theWhiteColor;
+}
+
+.scohel-midia-icons{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.scohel-midia-icons div svg{
+    color: $theWhiteColor;
+    margin: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.scohel-midia-icons div svg:hover{
+    color: $thePurpleColor;
+}
+
+.info-in-the-footer{
+    margin-top: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+
+.titel-on-the-page-two{
+    -webkit-clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 1%, 100% 0, 100% 93%, 0 100%);
+    background-color: $thePurpleColor;
+    min-height: 200px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    color: $theWhiteColor;
 }
 
-footer p{
-    padding-top: 30px;
+.titel-on-the-page-two h2{
+    font-size: $thePattyFont;
+    font-size: 40px;
+}
+
+
+.the-rosh-aer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.the-rosh-aer h3{
+    color: $thePurpleColor;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: $thePattyFont;
+}
+.the-rosh-aer p{
+    margin-block-start: 20px;
+    font-family: $theRobotoFont;
+    font-weight: bold;
+    font-size: 20px;
+}
+.the-rosh-aer img{
+    margin-block-start: 20px;
 }
 
 
 
+.adlat-page-two{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.adlat-page-two h3{
+    margin-block-start: 30px;
+    color: $thePurpleColor;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: $thePattyFont;
+}
 
+.adlat-page-two p{
+    margin-block-start: 20px;
+    font-family: $theRobotoFont;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.the-rosh-aer img{
+    margin-block-start: 20px;
+}
 
 
 
@@ -360,8 +434,42 @@ footer p{
         height: 36px;
     }
 
-    
 
+
+    
+    .the-rosh-aer h3{
+        margin: 30px;
+    }
+    .the-rosh-aer p{
+        font-size: 18px;
+        margin: 30px;
+    }
+    .the-rosh-aer img{
+        width: 200px;
+        height: 150px;
+        margin: 30px;
+    }
+
+
+
+
+
+
+
+    .adlat-page-two h3{
+        margin: 30px;
+    }
+    
+    .adlat-page-two p{
+        font-size: 18px;
+        margin: 30px;
+    }
+    
+    .adlat-page-two img{
+        width: 200px;
+        height: 150px;
+        margin: 30px;
+    }
 }
 
 
@@ -444,7 +552,6 @@ footer p{
     #subeser-logo-dimond-logo-first-page1{
         width: 55px;
         height: 50px;
-        
     }
     
     
@@ -457,9 +564,6 @@ footer p{
         width: 55px;
         height: 30px;
     }
-
-
-    
 
     .gold-sbunser-page-one{
         margin-block-start: 20px;
@@ -485,7 +589,29 @@ footer p{
         height: 29px;
     }
 
+     .scohel-midia-icons div svg{
+        width: 30px;
+         
+     }
+     
+     .info-in-the-footer p{
+        font-size: 18px;
+     }
+     
 
+     .the-rosh-aer h3{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .the-rosh-aer p{
+        font-size: 15px;
+        margin: 20px;
+    }
+    .the-rosh-aer img{
+        width: 150px;
+        height: 120px;
+        margin: 20px;
+    }
     
     
 }
