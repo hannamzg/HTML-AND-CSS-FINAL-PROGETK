@@ -430,6 +430,39 @@ footer{
 
 
 
+.videos-in-midea{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:  0 auto;
+    justify-items: center;
+}
+
+
+.videos-in-midea h4{
+  text-align: center;
+    margin-block: 20px;
+    font-family: $thePattyFont;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8CBF3F;
+}
+
+.videos-in-midea iframe{
+    
+    width: 400px;
+    max-width: 70vw;
+    max-height: 70vh;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -614,6 +647,29 @@ footer{
     
     
 
+    .videos-in-midea{  
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .videos-in-midea h4{
+      text-align: center;
+        margin-block: 20px;
+        font-family: $thePattyFont;
+        font-size: 30px;
+        font-weight: bold;
+        color: #8CBF3F;
+    }
+    
+    .videos-in-midea iframe{
+        
+        width: 250px;
+        height: 200px;
+        max-width: 70vw;
+        max-height: 70vh;
+    
+    }
+    
 
 
 
@@ -835,6 +891,31 @@ footer{
         margin: 10px;
         width: 130px;
         height: 100px;
+    }
+
+
+
+    .videos-in-midea{  
+        grid-template-columns: 1fr ;
+    }
+    
+    
+    .videos-in-midea h4{
+      text-align: center;
+        margin-block: 20px;
+        font-family: $thePattyFont;
+        font-size: 30px;
+        font-weight: bold;
+        color: #8CBF3F;
+    }
+    
+    .videos-in-midea iframe{
+        
+        width: 250px;
+        height: 200px;
+        max-width: 70vw;
+        max-height: 70vh;
+    
     }
     
 }
