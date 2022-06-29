@@ -360,6 +360,11 @@ footer{
     font-size: 40px;
 }
 
+.midea{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 
 .div-of-the-main-img{
     width: fit-content;
@@ -407,9 +412,18 @@ footer{
 
 }
 
+.all-imgs-imgs-in-misea{
+    margin-block-start: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-
-
+.imgs-in-midea{
+    margin: 10px;
+    width: 240px;
+    height: 200px;
+}
 
 
 
@@ -566,6 +580,48 @@ footer{
         width: 100px;
         height: auto;
     }
+
+    #right{
+        width: 40px;
+        height: 40px;
+    }
+    #left{
+        width: 40px;
+        height: 40px;
+        left:10px;
+    }
+
+    #close{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #mainImg{
+        max-width: 70vw;
+        max-height: 60vh;
+        width: 400px;
+        height: 350px;
+    
+    }
+    
+    
+    .imgs-in-midea{
+        margin: 10px;
+        width: 200px;
+        height: 150px;
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -748,4 +804,37 @@ footer{
     #p-card-4,#p-card-5,#p-card-6,#p-card-7{
         font-size: 14px !important;
     }
+
+
+    #right{
+        width: 30px;
+        height: 30px;
+    }
+    #left{
+        width: 30px;
+        height: 30px;
+        left:10px;
+    }
+
+    #close{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #mainImg{
+      
+        max-width: 70vw;
+        max-height: 60vh;
+        width: 300px;
+        height: 200px;
+    
+    }
+    
+    
+    .imgs-in-midea{
+        margin: 10px;
+        width: 130px;
+        height: 100px;
+    }
+    
 }
