@@ -56,6 +56,22 @@ left.addEventListener('click',function(){
 
 
 
+function emailCheck(){
+    let email = document.getElementById('email').value;
+    let text = document.getElementById('texttrueflace');
+    let pattern = /^[^ ]+\.[a-z]{1,3}$/;
+
+    if(email.match(pattern)){
+        text.innerHTML="true"
+        text.style.color='green'
+    }
+    else{
+        text.innerHTML="false"
+        text.style.color='red'
+    }
+}
+
+
 
 
 

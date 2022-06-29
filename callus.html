@@ -51,6 +51,9 @@
             </div>
           </nav>
      </header> 
+     <div>
+      <img src="photo/icons8-scroll-up-50 (1).png" alt="" class="scrol-up">
+    </div>
 
         <div class="titel-page-call-us">
             <h3>צור קשר</h3>
@@ -62,11 +65,13 @@
             <br><br>
             <input type="text" placeholder="שם משפחה" required>
             <br><br>
-            <input type="email" placeholder="אימיל" required id="email" >
+            <input type="text" placeholder="אימיל" required id="email" onkeydown="emailCheck()">
+            <span id="texttrueflace"></span>
+            
             <br><br>
             <textarea name="" id="" cols="20" rows="5" placeholder="הערות"></textarea>
             <br><br>
-            <input type="submit" style="border-radius: 20px; background-color: red; color:white">
+            <input type="submit" style="border-radius: 20px; background-color: red; color:white" id="submit-btn-in-call-us">
         </form>
 
         <div class="call-us-page-icons">
@@ -114,7 +119,6 @@
        <p>​​ עיריית חולון, ויצמן 58, 58737309, טל': 03-5027222, פקס: 03-6511851​</p>
       <p>hanna mzeget&copy;</p>
     </div>
-     
 </footer>
 
        <script src="scribt.js"></script>
